@@ -1,24 +1,24 @@
 baseURL = "https://solangii.github.io/"
-# title = "Hugo Themes"
-author = "Solang Kim"
+title = "Solang Kim"
+# theme = "paper"
 copyright = "Copyright © 2008–2019, Steve Francia and the lee.so; all rights reserved."
-paginate = 3
-languageCode = "en-us"
-DefaultContentLanguage = "en-us"
+
+languageCode = "ko-kr"
+DefaultContentLanguage = "ko-kr"
+
+enableRobotsTXT = true
+
+paginate = 5
+
 enableInlineShortcodes = true
-# prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
-# See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
 ignoreErrors = ["error-remote-getjson"]
 
-# ------------------------------
-theme = "paper"
-title = "Solang Kim"
 
 [params]
-  twitter = ''
+  email = 'solangii@unist.ac.kr'
   github = 'solangii'
   instagram = 's_rang__'
-# ------------------------------
+
 
 # needed to  render raw HTML (e.g. <sub>, <sup>, <kbd>, <mark>)
 [markup]
@@ -34,34 +34,22 @@ title = "Solang Kim"
     url = "/about/"
     weight = 10
 
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/post/"
+    weight = 10
+
+
+
 [taxonomies]
 category = "categories"
 tag = "tags"
 series = "series"
 
-[privacy]
+[outputs]
+home = ["HTML", "RSS", "JSON"]
 
-  [privacy.vimeo]
-    disabled = false
-    simple = true
 
-  [privacy.twitter]
-    disabled = false
-    enableDNT = true
-    simple = true
+# googleAnalytics = "<your tracking id>"
 
-  [privacy.instagram]
-    disabled = false
-    simple = true
-
-  [privacy.youtube]
-    disabled = false
-    privacyEnhanced = true
-
-[services]
-
-  [services.instagram]
-    disableInlineCSS = true
-
-  [services.twitter]
-    disableInlineCSS = true
