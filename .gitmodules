@@ -1,0 +1,7 @@
+[submodule "themes/paper"]
+	path = themes/paper
+	url = https://github.com/nanxiaobei/hugo-paper
+[submodule "public"]
+	path = public
+	url = https://github.com/solangii/solangii.github.io.git
+	branch = main
