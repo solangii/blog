@@ -1,5 +1,7 @@
 baseURL = "https://solangii.github.io/"
 title = "Solang Kim"
+author = "Solang Kim"
+description = "Slow and Steady"
 
 # theme = "paper"
 copyright = "Copyright © 2008–2019, Steve Francia and the lee.so; all rights reserved."
