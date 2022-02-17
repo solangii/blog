@@ -1,25 +1,54 @@
 +++
 title = "About"
-description = "Hugo, the world's fastest framework for building websites"
-date = "2019-02-28"
-aliases = ["about-us", "about-hugo", "contact"]
+date = "2022-02-17"
 author = "Solang Kim"
+draft = false
 +++
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+Good day​​ Wecolme to my blog. My name is **Solang Kim**. I am an undergraduate who is interested in **deep learning**. Among deep learning, I am interested in **learning for generalization** and studying to solve the **limitations of deep learning** like **meta-learning** and **Lifelong-learning**.
 
-Hugo makes use of a variety of open source projects including:
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+ ## Education
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
+ **Ulsan National Institute of Science and Technology (UNIST)**. Mar 2018 - Now
 
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
+ - Major : School of Computer Science Engineering (CSE).
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+ - Minor : School of Industrial Engineering (IE).
+
+
+
+ ## Experience
+
+ - [**Machine Intelligence and Information Learning lab**](https://sites.google.com/view/swyoon89/research-interests) Intern. July 2020 - **Now**
+
+ - **[brew AI neo scientists (brAIns)](https://sites.google.com/view/unist-brains?fbclid=IwAR0hv0jCFM27Bo37Fu9z_dy7Ni9_yis5vzNfUex2xaXTOMDJVKGFzw1twTo)**. Jan 2021 - **Now**
+
+ - **2nd AI Novatus Academia** (@UNIST AI Innovation Park) - Artificial Intelligence TA(인공지능 기초 파트 실습TA). Jul. 30, 2021
+
+ - **1st AI Novatus Academia** (@UNIST AI Innovation Park) - Deep Learning TA(딥러닝 기초 파트 실습TA). Feb. 26, 2021
+
+ - **Do:main**(Start-Up) Software Developer & Designer. Aug 2019 - Feb 2020
+
+ - **Entrepreneurship & Data Science Summer Camp** (@University of Illinois at Urbana-Champaign) Cooperation with **[Creasion](https://iventure.illinois.edu/creasion/)**. July 2019
+
+
+
+ ## Skills
+
+ - Languages : Korean, English
+
+ - Programming skills : Python, C, C++, MATLAB
+
+ - Tools : Adobe photoshop, Adobe illustrator, Blender
+
+
+
+ ## Social Info
+
+ Feel free to contact me anytime.
+
+ - E-mail : solangii@unist.ac.kr
+ - Github : http://github.com/solangii
+ - instagram : [@s_rang__](https://www.instagram.com/s_rang__/)

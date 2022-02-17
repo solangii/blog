@@ -1,3 +1,0 @@
-+++
-author = "Solang Kim"
-+++

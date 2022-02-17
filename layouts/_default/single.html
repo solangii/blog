@@ -12,6 +12,7 @@
     </p>
     <h1>{{ .Title }}</h1>
   </header>
+
   <section class="post-content">{{ .Content }}</section>
 
   <!-- Post Tags -->
@@ -35,17 +36,9 @@
   </nav>
   {{ end }}
 
-  <!-- Disqus -->
-  {{ if and site.DisqusShortname (not (eq .Params.comments false)) }}
-  <div id="disqus_thread" class="post-comments"></div>
-  <script>
-    var disqusShortname = '{{ site.DisqusShortname }}';
-    var script = document.createElement('script');
-    script.src = 'https://' + disqusShortname + '.disqus.com/embed.js';
-    script.setAttribute('data-timestamp', +new Date());
-    document.head.appendChild(script);
-  </script>
-  {{ end }}
+  <!-- utterances -->
+
 </article>
+
 
 {{ end }}
