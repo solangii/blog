@@ -1,7 +1,7 @@
 baseURL = "https://solangii.github.io/"
 title = "Solang Kim"
 author = "Solang Kim"
-description = "Slow and Steady"
+description = "Hello"
 
 # theme = "paper"
 copyright = "Copyright © 2008–2019, Steve Francia and the lee.so; all rights reserved."
@@ -22,6 +22,7 @@ ignoreErrors = ["error-remote-getjson"]
   email = 'solangii@unist.ac.kr'
   github = 'solangii'
   instagram = 's_rang__'
+  desc = 'home'
 
 
 # needed to  render raw HTML (e.g. <sub>, <sup>, <kbd>, <mark>)
