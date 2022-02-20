@@ -1,54 +1,60 @@
 +++
-title = "About"
-date = "2022-02-17"
-author = "Solang Kim"
+title = "About me"
+date = ""
+author = ""
 draft = false
 +++
 
-Good day​​ Wecolme to my blog. My name is **Solang Kim**. I am an undergraduate who is interested in **deep learning**. Among deep learning, I am interested in **learning for generalization** and studying to solve the **limitations of deep learning** like **meta-learning** and **Lifelong-learning**.
+안녕하세요:hugs:, 제 블로그에 와주셔서 감사합니다. 저는 인공지능을 공부하고 있는 석사과정 학생입니다. 그 중에서도 특히, Meta-Learning, Lifelong-Learning, Federated Learning과 같이 딥러닝의 한계를 해결하는 학습의 일반화와 관련된 문제에 더욱 관심이 많습니다.
 
+블로그는 제가 배우고 성장하고 느낀것들을 기록하며 소소한 성취감을 느끼기 위해서 시작하게 되었습니다. 블로그에 글을 쓰는 것도 앞으로의 취미가 될 것 같습니다!
 
+---
 
  ## Education
 
- **Ulsan National Institute of Science and Technology (UNIST)**. Mar 2018 - Now
+-  **Ulsan National Institute of Science and Technology (UNIST)**, Ulsan, South Korea
 
- - Major : School of Computer Science Engineering (CSE).
+	- **M.S., Artificial Intelligence Graduate School**, Mar. 2022 - Feb.2024 (Expected)
+	- Advisor: Prof. Sung Whan Yoon
 
- - Minor : School of Industrial Engineering (IE).
+- **Ulsan National Institute of Science and Technology (UNIST)**, Ulsan, South Korea
 
+	- **B.S., Computer Science Engineering**, Mar. 2018 - Feb. 2022
+	- Minor : Industrial Engineering (IE).
 
+- Changwon Science High School, Changwon, South Korea (2018)
 
- ## Experience
+ ## Research and Work Experiences
 
- - [**Machine Intelligence and Information Learning lab**](https://sites.google.com/view/swyoon89/research-interests) Intern. July 2020 - **Now**
+### Graduate Researcher
 
- - **[brew AI neo scientists (brAIns)](https://sites.google.com/view/unist-brains?fbclid=IwAR0hv0jCFM27Bo37Fu9z_dy7Ni9_yis5vzNfUex2xaXTOMDJVKGFzw1twTo)**. Jan 2021 - **Now**
+- [**Machine Intelligence and Information Learning lab**](https://sites.google.com/view/swyoon89/research-interests), Ulsan, South Korea, Mar. 2022 - Feb. 2024 (Expected)
 
- - **2nd AI Novatus Academia** (@UNIST AI Innovation Park) - Artificial Intelligence TA(인공지능 기초 파트 실습TA). Jul. 30, 2021
+### Undergraduate Researcher
 
- - **1st AI Novatus Academia** (@UNIST AI Innovation Park) - Deep Learning TA(딥러닝 기초 파트 실습TA). Feb. 26, 2021
+- [**Machine Intelligence and Information Learning lab**](https://sites.google.com/view/swyoon89/research-interests), Ulsan, South Korea, Jul. 2020 - Feb. 2022
 
- - **Do:main**(Start-Up) Software Developer & Designer. Aug 2019 - Feb 2020
+### Teaching Assistant
 
- - **Entrepreneurship & Data Science Summer Camp** (@University of Illinois at Urbana-Champaign) Cooperation with **[Creasion](https://iventure.illinois.edu/creasion/)**. July 2019
+- **Electrical Engineering Programming**, UNIST, Ulsan, South Korea, Mar. 2022 - Jun. 2022
+  - It covers basic programming tools for electrical engineering (C++).
 
+- **AI Novatus Academia**, UNIST AI Innovation Park, Ulsan, South Korea
+  - Deep Learning TA(딥러닝 기초 파트 실습TA). Feb. 26, 2021(**1st**)
+  - Artificial Intelligence TA(인공지능 기초 파트 실습TA). Jul. 30, 2021 (**2nd**), Jan. 7, 14, 2022 (**3rd**)
+  - This lectures are AI, DL education for manufacturers and engineers of industries around Ulsan city.
 
+### Start-Up
 
- ## Skills
-
- - Languages : Korean, English
-
- - Programming skills : Python, C, C++, MATLAB
-
- - Tools : Adobe photoshop, Adobe illustrator, Blender
-
-
+- **Do:main**, UNIST, Ulsan, South Korea, Aug 2019 - Feb. 2020
+- **[Creasion](https://iventure.illinois.edu/creasion/)**, UIUC, Chicago, USA, Jul. 2019
 
  ## Social Info
 
- Feel free to contact me anytime.
+ - E-mail: solangii@unist.ac.kr
+ - Github: http://github.com/solangii
+ - Linkdin: www.linkedin.com/in/solangii
+ - SNS: [instagram](http://www.instagram.com/s_rang__), [facebook](https://www.facebook.com/solangii1229/)
 
- - E-mail : solangii@unist.ac.kr
- - Github : http://github.com/solangii
- - instagram : [@s_rang__](https://www.instagram.com/s_rang__/)
+ 언제든지 편하게 연락주셔도 좋습니다:disguised_face:

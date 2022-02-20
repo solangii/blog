@@ -10,6 +10,7 @@ languageCode = "ko-kr"
 DefaultContentLanguage = "ko-kr"
 
 enableRobotsTXT = true
+enableEmoji = true
 
 paginate = 5
 
@@ -43,6 +44,11 @@ ignoreErrors = ["error-remote-getjson"]
     url = "/post/"
     weight = 10
 
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tag/"
+    weight = 10
 
 
 [taxonomies]
