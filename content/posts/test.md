@@ -2,7 +2,7 @@
 title: "Prototype Rectification for Few-Shot Learning 리뷰"
 date: 2021-05-19T02:26:49+09:00
 categories: []
-tags: ['블로그', '개발중', '화이팅']
+tags: ['Deep Learning', 'Meta Learning', 'Few-Shot Learning']
 draft: True
 math: True
 ---
@@ -94,7 +94,7 @@ Semi-Supervised 컨셉 중 이 논문과 유사한 컨셉 논문인 ML[26]논문
 
 
 ## 결론
-오늘 소개 드린 ["Prototype Rectification for Few-Shot Learning"](https://arxiv.org/abs/1911.10713) 논문은 Prototype의 성능을 제한하는 요인(intra-class bias, cross-class bias)들을 제시하였습니다. 그리고 제한 요인들의 영향을 줄이기 위한 방법들을 제안하였습니다. 본 글에서는 설명하지 않았지만, 각 요인들과 방법에 대한 이론적 분석까지 수행하였습니다. 단순히 prototype의 위치만 조정하여 똑같은 실험을 수행하였는데, 결과가 이렇게나 좋아질 수 있다는게 신기했습니다. pseudo labeling 자체는 ["Meta-Learning for Semi-Supervised Few-Shot Classification"](https://arxiv.org/abs/1803.00676) 논문과 유사하다고 생각되어 Novel하지는 않은 것 같고, query shifting 부분이 조금 더 novel 하다고 느꼈습니다. 심플한 아이디어와 방법론임에도 직관적인 전개 방식과 원인과 결과에 대한 명확한 분석, 전달하고자 하는 메시지의 명확함 덕분에 논문도 쉽게 읽히고 좋은 학회에 accept이 되지 않았나 싶습니다. 그러나 아쉬웠던 점은, 코드도 살펴보고 싶었으나, 따로 공개된 코드가 없었습니다..🥲
+오늘 소개 드린 ["Prototype Rectification for Few-Shot Learning"](https://arxiv.org/abs/1911.10713) 논문은 Prototype의 성능을 제한하는 요인(intra-class bias, cross-class bias)들을 제시하였습니다. 그리고 제한 요인들의 영향을 줄이기 위한 방법들을 제안하였습니다. 본 글에서는 설명하지 않았지만, 각 요인들과 방법에 대한 이론적 분석까지 수행하였습니다. 단순히 prototype의 위치만 조정하여 똑같은 실험을 수행하였는데, 결과가 이렇게나 좋아질 수 있다는게 신기했습니다. pseudo labeling 자체는 ["Meta-Learning for Semi-Supervised Few-Shot Classification"](https://arxiv.org/abs/1803.00676) 논문과 유사하다고 생각되어 Novel하지는 않은 것 같고, query shifting 부분이 조금 더 novel 하다고 느꼈습니다. 심플한 아이디어와 방법론임에도 직관적인 전개 방식과 원인과 결과에 대한 명확한 분석, 전달하고자 하는 메시지의 명확함 덕분에 논문도 쉽게 읽히고 좋은 학회에 accept이 되지 않았나 싶습니다. 
 
 긴 글 읽어주셔서 감사합니다 :)
 
