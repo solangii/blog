@@ -22,7 +22,13 @@ ignoreErrors = ["error-remote-getjson"]
   email = 'solangii@unist.ac.kr'
   github = 'solangii'
   instagram = 's_rang__'
-  desc = 'home'
+  logo = "logo.png"
+
+  math = true
+  mathjax = true
+  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
+  mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+
 
 
 # needed to  render raw HTML (e.g. <sub>, <sup>, <kbd>, <mark>)
@@ -42,23 +48,25 @@ ignoreErrors = ["error-remote-getjson"]
   [[menu.main]]
     identifier = "posts"
     name = "Posts"
-    url = "/post/"
+    url = "/posts/"
     weight = 10
 
   [[menu.main]]
     identifier = "tags"
     name = "Tags"
-    url = "/tag/"
+    url = "/tags/"
     weight = 10
 
 
 [taxonomies]
-category = "categories"
-tag = "tags"
-series = "series"
+  category = "categories"
+  tag = "tags"
+  series = "series"
 
 [outputs]
-home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS", "JSON"]
+
+
 
 
 # googleAnalytics = "<your tracking id>"

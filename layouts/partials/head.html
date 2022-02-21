@@ -34,6 +34,8 @@
 
   <!-- Preload -->
   <link rel="preload" as="image" href="{{ `theme.png` | absURL }}" />
+  <link rel="preload" as="image" href="{{ `logo.png` | absURL }}" />
+
 
   {{ range $.Scratch.Get "social-list" }}
   <link rel="preload" as="image" href="{{ printf `%s.svg` . | absURL }}" />

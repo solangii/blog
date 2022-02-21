@@ -1,13 +1,15 @@
 +++
-title = "About me"
+title = "About"
 date = ""
 author = ""
 draft = false
 +++
 
-안녕하세요:hugs:, 제 블로그에 와주셔서 감사합니다. 저는 인공지능을 공부하고 있는 석사과정 학생입니다. 그 중에서도 특히, Meta-Learning, Lifelong-Learning, Federated Learning과 같이 딥러닝의 한계를 해결하는 학습의 일반화와 관련된 문제에 더욱 관심이 많습니다.
 
-블로그는 제가 배우고 성장하고 느낀것들을 기록하며 소소한 성취감을 느끼기 위해서 시작하게 되었습니다. 블로그에 글을 쓰는 것도 앞으로의 취미가 될 것 같습니다!
+### 안녕하세요, 김소랑입니다:wave:
+제 블로그에 와주셔서 감사합니다. 저는 인공지능을 공부하고 있는 석사과정 학생입니다. 그 중에서도 특히, Meta-Learning, Lifelong-Learning, Federated Learning과 같이 딥러닝의 한계를 해결하는 학습의 일반화와 관련된 문제에 더욱 관심이 많습니다.
+
+성장과 배움에 큰 가치를 두고 매일 성장하는 삶을 살려고 노력하고 있습니다. 블로그도 제가 배우고 성장하고 느낀것들을 기록하며 소소한 성취감을 느끼기 위해서 시작하게 되었습니다. 궁금한 점이나 전하고 싶은 말이 있다면 아래에 있는 경로 어디든 연락주셔도 좋습니다. 함께 성장합시다 :seedling:
 
 ---
 
@@ -47,7 +49,7 @@ draft = false
 
 ### Start-Up
 
-- **Do:main**, UNIST, Ulsan, South Korea, Aug 2019 - Feb. 2020
+- **Do:main**, UNIST, Ulsan, South Korea, Aug. 2019 - Feb. 2020
 - **[Creasion](https://iventure.illinois.edu/creasion/)**, UIUC, Chicago, USA, Jul. 2019
 
  ## Social Info
