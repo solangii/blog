@@ -38,6 +38,7 @@
   </nav>
   {{ end }}
 
+  {{ if ne .Title "About" }}
   <!-- utterances -->
   <script src="https://utteranc.es/client.js"
         repo="solangii/solangii.github.io"
@@ -47,6 +48,7 @@
         crossorigin="anonymous"
         async>
   </script>
+  {{ end }}
 
 </article>
 
