@@ -26,10 +26,11 @@
 
 
 .post-content blockquote {
-    border-left: .25em solid #42B983;
-    background-color: #E9F8F3;
+    border-left: .25em solid #427DF4;
+    background-color: #F8F9FA;
     color: black;
     margin: 20 0 0 calc(var(--gap) - 0.4rem);
+    padding: 10px;
 }
 
 
@@ -80,3 +81,32 @@
 .site-name {
   max-width: calc(100%);
 }
+
+
+.post-entry:active {
+  transform: scale(0.99);
+}
+
+.post-entry h2 {
+  margin-bottom: 0.2rem;
+  font-size: 3rem;
+}
+
+.post-entry time {
+  flex-shrink: 0;
+  font-size: 1.7rem;
+  color: var(--air);
+}
+
+.post-entry a {
+  position: absolute;
+  inset: 0;
+}
+
+.post-entry h3 {
+  display: inline; 
+  color: #427DF4;
+  margin-right: 5px;
+  text-transform: uppercase;
+}
+

@@ -11,11 +11,14 @@
 {{ end }}
 
 <!-- Articles -->
+
 {{ $paginator := .Paginate $pages }} {{ range $index, $page := $paginator.Pages }}
 <article class="post-entry">
   <h2>{{ .Title }}</h2>
-  <time>{{ .Date | time.Format ":date_medium" }}</time>
+  <h3>{{ .Params.categories}}</h3>  <time>{{ .Date | time.Format ":date_medium" }}</time> 
+
   <a href="{{ .Permalink }}"></a>
+   {{ .Render "summary"}}
 </article>
 {{ end }}
 

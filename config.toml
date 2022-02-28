@@ -1,10 +1,9 @@
 baseURL = "https://solangii.github.io/"
 title = "Solang Kim"
 author = "Solang Kim"
-description = "Hello"
+description = "Solang Kim's blog"
 
-# theme = "paper"
-copyright = "Copyright © 2008–2019, Steve Francia and the lee.so; all rights reserved."
+copyright = "Copyright © 2022, Solang Kim; all rights reserved."
 
 languageCode = "ko-kr"
 DefaultContentLanguage = "ko-kr"
@@ -16,6 +15,7 @@ paginate = 5
 
 enableInlineShortcodes = true
 ignoreErrors = ["error-remote-getjson"]
+summaryLength = 20
 
 
 [params]
@@ -26,12 +26,10 @@ ignoreErrors = ["error-remote-getjson"]
 
   math = true
   mathjax = true
-  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
-  mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" 
+  mathjaxConfig = "TeX-AMS-MML_HTMLorMML" 
 
 
-
-# needed to  render raw HTML (e.g. <sub>, <sup>, <kbd>, <mark>)
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
@@ -51,23 +49,10 @@ ignoreErrors = ["error-remote-getjson"]
     url = "/posts/"
     weight = 10
 
-  [[menu.main]]
-    identifier = "tags"
-    name = "Tags"
-    url = "/tags/"
-    weight = 10
-
-
 [taxonomies]
   category = "categories"
   tag = "tags"
-  series = "series"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
-
-
-
-
-# googleAnalytics = "<your tracking id>"
 
