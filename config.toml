@@ -39,13 +39,13 @@ summaryLength = 20
 
   [[menu.main]]
     identifier = "about"
-    name = "About"
+    name = "👀 About"
     url = "/about/"
     weight = 10
 
   [[menu.main]]
     identifier = "posts"
-    name = "Posts"
+    name = "📚 Posts"
     url = "/posts/"
     weight = 10
 
