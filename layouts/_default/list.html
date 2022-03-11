@@ -1,22 +1,26 @@
 {{ define "main" }}
 
 <!-- Main Title -->
-{{ if .Title }}
-<h1 class="main-title">{{ .Title }}</h1>
-{{ end }}
+<!--{{ if .Title }}-->
+<!--<h1 class="main-title">{{ .Title }}</h1>-->
+<!--{{ end }}-->
 
 <!-- $pages -->
 {{ $pages := union .RegularPages .Sections }}
 <!---->{{ if .IsHome }} {{ $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
 {{ end }}
 
+
+<!-- Menu List -->
+{{ partial "menulist.html" . }}
+
+
 <!-- Articles -->
 
 {{ $paginator := .Paginate $pages }} {{ range $index, $page := $paginator.Pages }}
 <article class="post-entry">
-  <h2>{{ .Title }}</h2>
   <h3>{{ .Params.categories}}</h3>  <time>{{ .Date | time.Format ":date_medium" }}</time> 
-
+  <h2>{{ .Title }}</h2>
   <a href="{{ .Permalink }}"></a>
    {{ .Render "summary"}}
 </article>

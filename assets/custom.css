@@ -1,5 +1,5 @@
-/* Place custom css here. */
-
+/* Header
+ -------------------------------------------------- */
 .menu a.active {
   font-weight: 500;
   border-radius: 5rem;
@@ -7,33 +7,87 @@
 }
 
 ::selection {
-	background-color: #FDFFCC;
+  background-color: #FDFFCC;
 }
 
-.post-content hr {
-	border: none;
-    border-top: dashed 1px;
-    height: 0.5px;
-    opacity: 0.3;
-    margin-block: 10rem;
+
+.site-logo {
+  height: 32px;
+  border-radius: 3px;
+  vertical-align: middle;
 }
 
-.post-content a {
+.site-name {
+  max-width: calc(100%);
+}
+
+
+/* Main
+ -------------------------------------------------- */
+ .main {
+  max-width: var(--narrow);
+  min-height: calc(100% - var(--header) - var(--footer));
+  padding-top: var(--y-gap);
+  padding-bottom: var(--y-gap);
+}
+
+.main-title {
+  margin-bottom: 4.5rem;
+  font-size: 3rem;
+  font-weight: 400;
+  color: var(--lit);
+}
+
+.main-nav {
+  display: flex;
+  margin-top: 5rem;
+}
+
+.main-nav a {
+  display: flex;
+  font-size: 5.5rem;
+  color: var(--black);
+  background: none;
+  border-radius: 2rem;
+  padding-inline: 3rem;
+}
+
+.main-nav .next {
+  margin-left: auto;
+}
+
+
+/* Post entry
+ -------------------------------------------------- */
+.post-entry:active {
+  transform: scale(0.99);
+}
+
+.post-entry h2 {
+  margin-bottom: 0.2rem;
+  font-size: 3rem;
+}
+
+.post-entry time {
+  flex-shrink: 0;
+  font-size: 1.7rem;
+  color: var(--air);
+}
+
+.post-entry a {
+  position: absolute;
+  inset: 0;
+}
+
+.post-entry h3 {
+  display: inline; 
   color: #427DF4;
-  border-bottom: 0px;
-  text-decoration: none;
+  margin-right: 5px;
+  text-transform: uppercase;
 }
 
-
-.post-content blockquote {
-    border-left: .25em solid #427DF4;
-    background-color: #F8F9FA;
-    color: black;
-    margin: 20 0 0 calc(var(--gap) - 0.4rem);
-    padding: 10px;
-}
-
-
+/* Post single
+ -------------------------------------------------- */
 
 .post-tags {
   margin-top: 5rem;
@@ -72,41 +126,92 @@
   line-height: 1.2;
 }
 
-.site-logo {
-  height: 32px;
-  border-radius: 3px;
-  vertical-align: middle;
+/* Post content
+ -------------------------------------------------- */
+ .post-content hr {
+  border: none;
+    border-top: dashed 1px;
+    height: 0.5px;
+    opacity: 0.3;
+    margin-block: 10rem;
 }
 
-.site-name {
-  max-width: calc(100%);
-}
-
-
-.post-entry:active {
-  transform: scale(0.99);
-}
-
-.post-entry h2 {
-  margin-bottom: 0.2rem;
-  font-size: 3rem;
-}
-
-.post-entry time {
-  flex-shrink: 0;
-  font-size: 1.7rem;
-  color: var(--air);
-}
-
-.post-entry a {
-  position: absolute;
-  inset: 0;
-}
-
-.post-entry h3 {
-  display: inline; 
+.post-content a {
   color: #427DF4;
+  border-bottom: 0px;
+  text-decoration: none;
+}
+
+
+.post-content blockquote {
+    border-left: .25em solid #427DF4;
+    background-color: #F8F9FA;
+    color: black;
+    margin: 20 0 0 calc(var(--gap) - 0.4rem);
+    padding: 10px;
+}
+
+
+/* categories
+ -------------------------------------------------- */
+
+.categories-nav {
+  margin-bottom: 3rem;
+  align-items: center;
+  align-content: center;
+  
+}
+
+.categories-nav a{
+  display: inline-block;
+  border: 1px solid;
+  border-radius: 999em;
+  padding: 0 10px;
+  color: #427DF4;
+  opacity: 0.8;
+  border-color: #bfbfbf;
+  line-height: 24px;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+  margin-right: 6px;
+}
+.categories-nav a:active, a:hover {
+  font-weight: 500;
+  border-radius: 5rem;
+  opacity: 1;
+  border-color: #427DF4;
+}
+
+
+.categories-nav a.active {
+  font-weight: 500;
+  border-radius: 5rem;
+  opacity: 1;
+}
+
+.categories-nav h2 {
+  color: --black;
   margin-right: 5px;
   text-transform: uppercase;
+  margin-bottom: 10px;
+  font-size: 3.5rem;
+
+  font-size: 3rem;
+  font-weight: 400;
+  color: var(--lit);
+
 }
 
+.categories-nav hr {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  border: none;
+  border-top: dashed 1px;
+  height: 0.5px;
+  opacity: 0.3;
+}
+
+.categories-nav-list {
+  text-align: center;
+}
