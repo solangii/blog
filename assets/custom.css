@@ -126,6 +126,49 @@
   line-height: 1.2;
 }
 
+/* TOC
+ -------------------------------------------------- */
+
+.toc {
+  margin-bottom: 25px;
+  border:1px ;
+  background:#F5F5F5;
+  border-radius: 2rem;
+  padding:.4em;
+  font-size:15px
+}
+
+
+.toc details{
+  display:inline;
+  font-weight:500;
+}
+
+
+.toc details[open]{
+  cursor:zoom-out
+  margin-left: 20px;
+
+}
+
+.toc summary{
+  cursor:zoom-in;
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+.toc nav{
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.toc li{
+  margin-left: 20px;
+}
+
+.toc summary:focus{outline:0}
+
 /* Post content
  -------------------------------------------------- */
  .post-content hr {

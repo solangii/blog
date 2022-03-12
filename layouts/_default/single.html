@@ -13,6 +13,8 @@
     <h1>{{ .Title }}</h1>
   </header>
 
+  {{ partial "toc.html" . }}
+
   <section class="post-content">{{ .Content }}</section>
 
   {{ partial "math.html" . }} 
