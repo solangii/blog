@@ -1,5 +1,7 @@
+{{ if ne .Title "About" }}
 <details class="toc" >
 	<summary>Table of Contents</summary>
 	
 	{{.TableOfContents}}
 </details>
+{{ end }}

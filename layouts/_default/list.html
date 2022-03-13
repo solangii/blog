@@ -1,9 +1,14 @@
 {{ define "main" }}
 
 <!-- Main Title -->
+{{ if ne .Title "Posts" }}
+<h1 class="main-title">{{ .Title }}</h1>
+{{ end }}
 <!--{{ if .Title }}-->
 <!--<h1 class="main-title">{{ .Title }}</h1>-->
 <!--{{ end }}-->
+
+
 
 <!-- $pages -->
 {{ $pages := union .RegularPages .Sections }}
@@ -22,7 +27,7 @@
   <h3>{{ .Params.categories}}</h3>  <time>{{ .Date | time.Format ":date_medium" }}</time> 
   <h2>{{ .Title }}</h2>
   <a href="{{ .Permalink }}"></a>
-   {{ .Render "summary"}}
+   {{ partial "summary" .}}
 </article>
 {{ end }}
 

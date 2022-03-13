@@ -36,6 +36,7 @@
   font-size: 3rem;
   font-weight: 400;
   color: var(--lit);
+  text-transform: uppercase;
 }
 
 .main-nav {
@@ -89,6 +90,36 @@
 /* Post single
  -------------------------------------------------- */
 
+.post-title {
+  margin-bottom: calc(var(--y-gap) - 2rem);
+}
+
+.post-title p {
+  display: flex;
+  margin-bottom: 1.5rem;
+  font-size: 1.6rem;
+  color: var(--air);
+  transform: translateY(0.4rem);
+}
+
+.post-title p span::before {
+  content: '·';
+  margin-inline: 0.8rem;
+}
+
+.post-title h1 {
+  font-size: 4.5rem;
+  transform: translateX(-0.3rem);
+}
+
+
+.post-title h3 {
+  display: inline; 
+  color: --black;
+  margin-right: 5px;
+  text-transform: uppercase;
+}
+
 .post-tags {
   margin-top: 5rem;
   margin-bottom: 5rem;
@@ -100,8 +131,8 @@
   color: var(--black);
   background: none;
   padding-inline: 0.2rem;
-  text-decoration: none;
-  font-size: 2.2rem;
+  text-decoration: underline;
+  font-size: 15px;
 }
 
 .post-tags a + a {
@@ -219,7 +250,7 @@
   margin-bottom: 6px;
   margin-right: 6px;
 }
-.categories-nav a:active, a:hover {
+.categories-nav a:hover {
   font-weight: 500;
   border-radius: 5rem;
   opacity: 1;
@@ -227,7 +258,7 @@
 }
 
 
-.categories-nav a.active {
+.categories-nav a:active {
   font-weight: 500;
   border-radius: 5rem;
   opacity: 1;

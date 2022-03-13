@@ -1,17 +1,8 @@
 {{ define "main" }}
 
 <article class="post-single">
-  <header class="post-title">
-    <p>
-      {{ if .Date }}
-      <time>{{ .Date | time.Format ":date_medium" }}</time>
-      {{ end }}
-      {{ if or .Params.Author site.Author.name }}
-      <span>{{ .Params.Author | default site.Author.name }}</span>
-      {{ end }}
-    </p>
-    <h1>{{ .Title }}</h1>
-  </header>
+
+  {{ partial "post-title.html" . }}
 
   {{ partial "toc.html" . }}
 
@@ -20,37 +11,13 @@
   {{ partial "math.html" . }} 
 
   <!-- Post Tags -->
-  {{ if .Params.tags }}
-  <footer class="post-tags">
-    {{ range .Params.tags }} {{ $href := print (absURL "tags/") (urlize .) }}
-    <a href="{{ $href }}">#{{ . }}</a>
-    {{ end }}
-  </footer>
-  {{ end }}
+  {{ partial "post-tags.html" . }}
 
   <!-- Post Nav -->
-  {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}<!---->
-  {{ if and (gt (len $pages) 1) (in $pages . ) }}
-  <nav class="post-nav">
-    {{ with $pages.Next . }}
-    <a class="prev" href="{{ .Permalink }}"><span>←</span><span>{{ .Name }}</span></a>
-    {{ end }} {{ with $pages.Prev . }}
-    <a class="next" href="{{ .Permalink }}"><span>{{ .Name }}</span><span>→</span></a>
-    {{ end }}
-  </nav>
-  {{ end }}
+  {{ partial "post-nav.html" . }}
 
-  {{ if ne .Title "About" }}
   <!-- utterances -->
-  <script src="https://utteranc.es/client.js"
-        repo="solangii/solangii.github.io"
-        issue-term="title"
-        label="✨💬✨"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-  </script>
-  {{ end }}
+  {{ partial "post-comment.html" . }}
 
 </article>
 
