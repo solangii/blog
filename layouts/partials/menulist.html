@@ -7,8 +7,7 @@
         {{ $data := .Data }}
         {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
         <a href="{{ $baseurl }}/categories/{{ $name }}">
-          <!--{{ $name }}-->
-          {{ $name }}
+          {{ replace $name "-" " "}}
         </a>
         {{ end }}
       </div>

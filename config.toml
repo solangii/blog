@@ -29,6 +29,8 @@ summaryLength = 20
   mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" 
   mathjaxConfig = "TeX-AMS-MML_HTMLorMML" 
 
+  notoc = false
+
 
 [markup]
   [markup.goldmark]

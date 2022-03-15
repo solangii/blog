@@ -1,13 +1,9 @@
 {{ define "main" }}
 
-<!-- Main Title -->
-{{ if ne .Title "Posts" }}
+<!-- Main Title (category, tag 일때만)--> 
+{{ if and (ne .Title "Posts") (ne .Title "Solang Kim") }}
 <h1 class="main-title">{{ .Title }}</h1>
 {{ end }}
-<!--{{ if .Title }}-->
-<!--<h1 class="main-title">{{ .Title }}</h1>-->
-<!--{{ end }}-->
-
 
 
 <!-- $pages -->

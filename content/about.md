@@ -3,6 +3,7 @@ title = "About"
 date = ""
 author = ""
 draft = false
+notoc = true
 +++
 
 
