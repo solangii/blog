@@ -4,11 +4,12 @@ date = ""
 author = ""
 draft = false
 notoc = true
+
 +++
 
 
 ### 안녕하세요, 김소랑입니다:wave:
-제 블로그에 와주셔서 감사합니다. 저는 인공지능을 공부하고 있는 석사과정 학생입니다. 그 중에서도 특히, Meta-Learning, Lifelong-Learning, Federated Learning과 같이 딥러닝의 한계를 해결하는 학습의 일반화와 관련된 문제에 더욱 관심이 많습니다.
+제 블로그에 와주셔서 감사합니다. 저는 인공지능을 공부하고 있는 석사과정 학생입니다. 그 중에서도 특히, Meta-Learning, Lifelong-Learning 과 같이 딥러닝의 한계를 해결하는 학습의 일반화와 관련된 문제와 Human과 관련된 3D Vision 문제에 더욱 관심이 많습니다.
 
 성장과 배움에 큰 가치를 두고 매일 성장하는 삶을 살려고 노력하고 있습니다. 블로그도 제가 배우고 성장하고 느낀것들을 기록하며 소소한 성취감을 느끼기 위해서 시작하게 되었습니다. 궁금한 점이나 전하고 싶은 말이 있다면 아래에 있는 경로 어디든 연락주셔도 좋습니다. 함께 성장합시다 :seedling:
 
@@ -16,27 +17,29 @@ notoc = true
 
  ## Education
 
--  **Ulsan National Institute of Science and Technology (UNIST)**, Ulsan, South Korea
-
-	- **M.S., Artificial Intelligence Graduate School**, Mar. 2022 - Feb.2024 (Expected)
-	- Advisor: Prof. Sung Whan Yoon
-
 - **Ulsan National Institute of Science and Technology (UNIST)**, Ulsan, South Korea
 
-	- **B.S., Computer Science Engineering**, Mar. 2018 - Feb. 2022
-	- Minor : Industrial Engineering (IE).
+  - **M.S., Artificial Intelligence Graduate School**, Mar. 2022 - Feb.2024 (Expected)
+    - Advisor: Prof. Sung Whan Yoon
 
-- Changwon Science High School, Changwon, South Korea (2018)
+  -  **B.S., Computer Science Engineering**, Mar. 2018 - Feb. 2022
+     -  Minor : Industrial Engineering (IE)
+     -  Cum laude
 
- ## Research and Work Experiences
+-  Changwon Science High School, Changwon, South Korea (2018)
 
-### Graduate Researcher
+## Experiences
 
-- [**Machine Intelligence and Information Learning lab**](https://sites.google.com/view/swyoon89/research-interests), Ulsan, South Korea, Mar. 2022 - Feb. 2024 (Expected)
+### Research Intern
 
-### Undergraduate Researcher
+- CLOVA Video Team, NAVER Corp, Seongnam, South Korea, Jun. 2022 - Now
+  - Research for 3d face reconstruction and reenactment models
+  - Development Software Development Kit(SDK) about 3d face reconstruction
+  - Skill: Python, Pytorch, Docker, Kubenetes, Kubeflow, MLflow, Shell
 
 - [**Machine Intelligence and Information Learning lab**](https://sites.google.com/view/swyoon89/research-interests), Ulsan, South Korea, Jul. 2020 - Feb. 2022
+
+
 
 ### Teaching Assistant
 
@@ -53,7 +56,16 @@ notoc = true
 - **Do:main**, UNIST, Ulsan, South Korea, Aug. 2019 - Feb. 2020
 - **[Creasion](https://iventure.illinois.edu/creasion/)**, UIUC, Chicago, USA, Jul. 2019
 
- ## Social Info
+
+
+## Awards
+
+- [CVPR 2022 Workshop Challenge](https://bit.ly/3uP48bj), Carnegie Mellon University & Aicrowd, Jul. 2022
+  - innovation prize
+- UNIST President Fellowship, UNIST, Mar. 2018
+  - Students who are excellent entrants among new students and have the potential to grow into a creative science and technology global leaders
+
+## Social Info
 
  - E-mail: solangii@unist.ac.kr
  - Github: http://github.com/solangii
