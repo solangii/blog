@@ -15,7 +15,7 @@ paginate = 5
 
 enableInlineShortcodes = true
 ignoreErrors = ["error-remote-getjson"]
-summaryLength = 20
+summaryLength = 5
 
 
 [params]
