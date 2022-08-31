@@ -35,7 +35,7 @@ notoc = true
 - CLOVA Video Team, NAVER Corp, Seongnam, South Korea, Jun. 2022 - Now
   - Research for 3d face reconstruction and reenactment models
   - Development Software Development Kit(SDK) about 3d face reconstruction
-  - Skill: Python, Pytorch, Docker, Kubenetes, Kubeflow, MLflow, Shell
+  - Skill: Python, Pytorch, Docker, Kubernetes, Kubeflow, MLflow, Shell
 
 - [**Machine Intelligence and Information Learning lab**](https://sites.google.com/view/swyoon89/research-interests), Ulsan, South Korea, Jul. 2020 - Feb. 2022
 
