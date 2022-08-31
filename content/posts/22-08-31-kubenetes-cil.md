@@ -1,15 +1,15 @@
 ---
-title: "🎯 Kubenetes Snippets"
+title: "🎯 Kubernetes Snippets"
 date: 2022-08-31T00:12:57+09:00
 categories: snippet
-tags: ['kubenetes', 'mlops']
+tags: ['kubernetes', 'mlops']
 draft: false
 notoc: true
 ---
 
 
 
-> 자주 사용하는 Kubenetes 명령어를 정리합니다.
+> 자주 사용하는 Kubernetes 명령어를 정리합니다.
 
 ---
 
